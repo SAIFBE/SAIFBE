@@ -1,12 +1,40 @@
-- 👋 Hi, I’m @SAIFBE student in
-- 👀 I’m interested in ...AI , Web Development
-- 🌱 I’m currently learning ...Python,html,css
-- 💞️ I’m looking to collaborate on ...Frontend project
-- 📫 How to reach me ...email:saifben002@gmail.com/linkedin:https://www.linkedin.com/in/saif-ben-kaddour-10abb230a/
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ... speak three languages fluently.
+# Professional Dental Clinic Management System (Frontend)
 
-<!---
-SAIFBE/SAIFBE is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Production-ready React + Vite frontend scaffold for an academic SaaS-style medical platform (CMC Morocco).
+
+## Stack
+- React 18 + Vite
+- React Router DOM
+- TanStack React Query
+- Axios with interceptors
+- React Hook Form + Zod
+- Tailwind CSS
+- Context API auth with role-based guards
+
+## Run
+```bash
+npm install
+npm run dev
+```
+
+## Demo accounts (mock)
+- Dentist (Admin): `admin@clinic.ma` / `Admin123!`
+- Secretary: `secretary@clinic.ma` / `Sec12345!`
+- Assistant: `assistant@clinic.ma` / `Assist123!`
+
+## Key architecture
+```txt
+src/
+  app/
+  api/
+  features/
+  shared/
+  providers/
+  routes/
+  layouts/
+  components/
+  hooks/
+  utils/
+```
+
+Patients module is fully implemented as architecture reference (CRUD + profile tabs + validation + optimistic UX).
